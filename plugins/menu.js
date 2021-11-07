@@ -10,17 +10,17 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     var r_text = new Array ();
     
     
-    r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/2016/03/M6858-wallpaper-HD-dowload.jpg";
+    r_text[0] = "https://imgur.com/a/y7HFCdO";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️Ameer Suhail✨️━━━━━⛦
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️ZBRT SIR✨️━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Ameer Suhail 𝐛𝐨𝐭.
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 ZBRT SIR 𝐛𝐨𝐭.
             *M6858*
 
 ■□■□■□■□■□■□■□■□■□■□
@@ -135,7 +135,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 ⚠️ex  attp M6858
 ■□■□■□■□■□■□■□■□■□■□
 ═════💢M6858💢═════
-▣▣▣▣▣▣▣▣▣ameersuhail▣▣▣▣▣▣▣▣▣▣▣
+▣▣▣▣▣▣▣▣▣ZBRT▣▣▣▣▣▣▣▣▣▣▣
 
 `}) 
 
